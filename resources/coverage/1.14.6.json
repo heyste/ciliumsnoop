@@ -1,0 +1,1728 @@
+{
+    "spec": "incluster",
+    "tests": null,
+    "release": "1.14.6",
+    "sources": null,
+    "endpoints": [
+        {
+            "kind": "CiliumClusterwideNetworkPolicy",
+            "path": "/apis/cilium.io/v2/ciliumclusterwidenetworkpolicies",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "post",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "createCiliumIoV2CiliumClusterwideNetworkPolicy",
+            "conf_tested": false,
+            "description": "create a CiliumClusterwideNetworkPolicy"
+        },
+        {
+            "kind": "CiliumExternalWorkload",
+            "path": "/apis/cilium.io/v2/ciliumexternalworkloads",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "post",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "createCiliumIoV2CiliumExternalWorkload",
+            "conf_tested": false,
+            "description": "create a CiliumExternalWorkload"
+        },
+        {
+            "kind": "CiliumIdentity",
+            "path": "/apis/cilium.io/v2/ciliumidentities",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "post",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "createCiliumIoV2CiliumIdentity",
+            "conf_tested": false,
+            "description": "create a CiliumIdentity"
+        },
+        {
+            "kind": "CiliumNode",
+            "path": "/apis/cilium.io/v2/ciliumnodes",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "post",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "createCiliumIoV2CiliumNode",
+            "conf_tested": false,
+            "description": "create a CiliumNode"
+        },
+        {
+            "kind": "CiliumEndpoint",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumendpoints",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "post",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "createCiliumIoV2NamespacedCiliumEndpoint",
+            "conf_tested": false,
+            "description": "create a CiliumEndpoint"
+        },
+        {
+            "kind": "CiliumNetworkPolicy",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumnetworkpolicies",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "post",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "createCiliumIoV2NamespacedCiliumNetworkPolicy",
+            "conf_tested": false,
+            "description": "create a CiliumNetworkPolicy"
+        },
+        {
+            "kind": "CiliumClusterwideNetworkPolicy",
+            "path": "/apis/cilium.io/v2/ciliumclusterwidenetworkpolicies/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "delete",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2CiliumClusterwideNetworkPolicy",
+            "conf_tested": false,
+            "description": "delete a CiliumClusterwideNetworkPolicy"
+        },
+        {
+            "kind": "CiliumExternalWorkload",
+            "path": "/apis/cilium.io/v2/ciliumexternalworkloads/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "delete",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2CiliumExternalWorkload",
+            "conf_tested": false,
+            "description": "delete a CiliumExternalWorkload"
+        },
+        {
+            "kind": "CiliumIdentity",
+            "path": "/apis/cilium.io/v2/ciliumidentities/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "delete",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2CiliumIdentity",
+            "conf_tested": false,
+            "description": "delete a CiliumIdentity"
+        },
+        {
+            "kind": "CiliumNode",
+            "path": "/apis/cilium.io/v2/ciliumnodes/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "delete",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2CiliumNode",
+            "conf_tested": false,
+            "description": "delete a CiliumNode"
+        },
+        {
+            "kind": "CiliumClusterwideNetworkPolicy",
+            "path": "/apis/cilium.io/v2/ciliumclusterwidenetworkpolicies",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "deletecollection",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2CollectionCiliumClusterwideNetworkPolicy",
+            "conf_tested": false,
+            "description": "delete collection of CiliumClusterwideNetworkPolicy"
+        },
+        {
+            "kind": "CiliumExternalWorkload",
+            "path": "/apis/cilium.io/v2/ciliumexternalworkloads",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "deletecollection",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2CollectionCiliumExternalWorkload",
+            "conf_tested": false,
+            "description": "delete collection of CiliumExternalWorkload"
+        },
+        {
+            "kind": "CiliumIdentity",
+            "path": "/apis/cilium.io/v2/ciliumidentities",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "deletecollection",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2CollectionCiliumIdentity",
+            "conf_tested": false,
+            "description": "delete collection of CiliumIdentity"
+        },
+        {
+            "kind": "CiliumNode",
+            "path": "/apis/cilium.io/v2/ciliumnodes",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "deletecollection",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2CollectionCiliumNode",
+            "conf_tested": false,
+            "description": "delete collection of CiliumNode"
+        },
+        {
+            "kind": "CiliumEndpoint",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumendpoints",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "deletecollection",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2CollectionNamespacedCiliumEndpoint",
+            "conf_tested": false,
+            "description": "delete collection of CiliumEndpoint"
+        },
+        {
+            "kind": "CiliumNetworkPolicy",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumnetworkpolicies",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "deletecollection",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2CollectionNamespacedCiliumNetworkPolicy",
+            "conf_tested": false,
+            "description": "delete collection of CiliumNetworkPolicy"
+        },
+        {
+            "kind": "CiliumEndpoint",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumendpoints/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "delete",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2NamespacedCiliumEndpoint",
+            "conf_tested": false,
+            "description": "delete a CiliumEndpoint"
+        },
+        {
+            "kind": "CiliumNetworkPolicy",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumnetworkpolicies/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "delete",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2NamespacedCiliumNetworkPolicy",
+            "conf_tested": false,
+            "description": "delete a CiliumNetworkPolicy"
+        },
+        {
+            "kind": "CiliumClusterwideNetworkPolicy",
+            "path": "/apis/cilium.io/v2/ciliumclusterwidenetworkpolicies",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2CiliumClusterwideNetworkPolicy",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumClusterwideNetworkPolicy"
+        },
+        {
+            "kind": "CiliumEndpoint",
+            "path": "/apis/cilium.io/v2/ciliumendpoints",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2CiliumEndpointForAllNamespaces",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumEndpoint"
+        },
+        {
+            "kind": "CiliumExternalWorkload",
+            "path": "/apis/cilium.io/v2/ciliumexternalworkloads",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2CiliumExternalWorkload",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumExternalWorkload"
+        },
+        {
+            "kind": "CiliumIdentity",
+            "path": "/apis/cilium.io/v2/ciliumidentities",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2CiliumIdentity",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumIdentity"
+        },
+        {
+            "kind": "CiliumNetworkPolicy",
+            "path": "/apis/cilium.io/v2/ciliumnetworkpolicies",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2CiliumNetworkPolicyForAllNamespaces",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumNetworkPolicy"
+        },
+        {
+            "kind": "CiliumNode",
+            "path": "/apis/cilium.io/v2/ciliumnodes",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2CiliumNode",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumNode"
+        },
+        {
+            "kind": "CiliumEndpoint",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumendpoints",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2NamespacedCiliumEndpoint",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumEndpoint"
+        },
+        {
+            "kind": "CiliumNetworkPolicy",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumnetworkpolicies",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2NamespacedCiliumNetworkPolicy",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumNetworkPolicy"
+        },
+        {
+            "kind": "CiliumClusterwideNetworkPolicy",
+            "path": "/apis/cilium.io/v2/ciliumclusterwidenetworkpolicies/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2CiliumClusterwideNetworkPolicy",
+            "conf_tested": false,
+            "description": "partially update the specified CiliumClusterwideNetworkPolicy"
+        },
+        {
+            "kind": "CiliumClusterwideNetworkPolicy",
+            "path": "/apis/cilium.io/v2/ciliumclusterwidenetworkpolicies/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2CiliumClusterwideNetworkPolicyStatus",
+            "conf_tested": false,
+            "description": "partially update status of the specified CiliumClusterwideNetworkPolicy"
+        },
+        {
+            "kind": "CiliumExternalWorkload",
+            "path": "/apis/cilium.io/v2/ciliumexternalworkloads/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2CiliumExternalWorkload",
+            "conf_tested": false,
+            "description": "partially update the specified CiliumExternalWorkload"
+        },
+        {
+            "kind": "CiliumExternalWorkload",
+            "path": "/apis/cilium.io/v2/ciliumexternalworkloads/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2CiliumExternalWorkloadStatus",
+            "conf_tested": false,
+            "description": "partially update status of the specified CiliumExternalWorkload"
+        },
+        {
+            "kind": "CiliumIdentity",
+            "path": "/apis/cilium.io/v2/ciliumidentities/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2CiliumIdentity",
+            "conf_tested": false,
+            "description": "partially update the specified CiliumIdentity"
+        },
+        {
+            "kind": "CiliumIdentity",
+            "path": "/apis/cilium.io/v2/ciliumidentities/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2CiliumIdentityStatus",
+            "conf_tested": false,
+            "description": "partially update status of the specified CiliumIdentity"
+        },
+        {
+            "kind": "CiliumNode",
+            "path": "/apis/cilium.io/v2/ciliumnodes/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2CiliumNode",
+            "conf_tested": false,
+            "description": "partially update the specified CiliumNode"
+        },
+        {
+            "kind": "CiliumNode",
+            "path": "/apis/cilium.io/v2/ciliumnodes/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2CiliumNodeStatus",
+            "conf_tested": false,
+            "description": "partially update status of the specified CiliumNode"
+        },
+        {
+            "kind": "CiliumEndpoint",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumendpoints/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2NamespacedCiliumEndpoint",
+            "conf_tested": false,
+            "description": "partially update the specified CiliumEndpoint"
+        },
+        {
+            "kind": "CiliumNetworkPolicy",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumnetworkpolicies/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2NamespacedCiliumNetworkPolicy",
+            "conf_tested": false,
+            "description": "partially update the specified CiliumNetworkPolicy"
+        },
+        {
+            "kind": "CiliumNetworkPolicy",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumnetworkpolicies/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2NamespacedCiliumNetworkPolicyStatus",
+            "conf_tested": false,
+            "description": "partially update status of the specified CiliumNetworkPolicy"
+        },
+        {
+            "kind": "CiliumClusterwideNetworkPolicy",
+            "path": "/apis/cilium.io/v2/ciliumclusterwidenetworkpolicies/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2CiliumClusterwideNetworkPolicy",
+            "conf_tested": false,
+            "description": "read the specified CiliumClusterwideNetworkPolicy"
+        },
+        {
+            "kind": "CiliumClusterwideNetworkPolicy",
+            "path": "/apis/cilium.io/v2/ciliumclusterwidenetworkpolicies/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2CiliumClusterwideNetworkPolicyStatus",
+            "conf_tested": false,
+            "description": "read status of the specified CiliumClusterwideNetworkPolicy"
+        },
+        {
+            "kind": "CiliumExternalWorkload",
+            "path": "/apis/cilium.io/v2/ciliumexternalworkloads/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2CiliumExternalWorkload",
+            "conf_tested": false,
+            "description": "read the specified CiliumExternalWorkload"
+        },
+        {
+            "kind": "CiliumExternalWorkload",
+            "path": "/apis/cilium.io/v2/ciliumexternalworkloads/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2CiliumExternalWorkloadStatus",
+            "conf_tested": false,
+            "description": "read status of the specified CiliumExternalWorkload"
+        },
+        {
+            "kind": "CiliumIdentity",
+            "path": "/apis/cilium.io/v2/ciliumidentities/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2CiliumIdentity",
+            "conf_tested": false,
+            "description": "read the specified CiliumIdentity"
+        },
+        {
+            "kind": "CiliumIdentity",
+            "path": "/apis/cilium.io/v2/ciliumidentities/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2CiliumIdentityStatus",
+            "conf_tested": false,
+            "description": "read status of the specified CiliumIdentity"
+        },
+        {
+            "kind": "CiliumNode",
+            "path": "/apis/cilium.io/v2/ciliumnodes/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2CiliumNode",
+            "conf_tested": false,
+            "description": "read the specified CiliumNode"
+        },
+        {
+            "kind": "CiliumNode",
+            "path": "/apis/cilium.io/v2/ciliumnodes/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2CiliumNodeStatus",
+            "conf_tested": false,
+            "description": "read status of the specified CiliumNode"
+        },
+        {
+            "kind": "CiliumEndpoint",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumendpoints/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2NamespacedCiliumEndpoint",
+            "conf_tested": false,
+            "description": "read the specified CiliumEndpoint"
+        },
+        {
+            "kind": "CiliumNetworkPolicy",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumnetworkpolicies/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2NamespacedCiliumNetworkPolicy",
+            "conf_tested": false,
+            "description": "read the specified CiliumNetworkPolicy"
+        },
+        {
+            "kind": "CiliumNetworkPolicy",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumnetworkpolicies/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2NamespacedCiliumNetworkPolicyStatus",
+            "conf_tested": false,
+            "description": "read status of the specified CiliumNetworkPolicy"
+        },
+        {
+            "kind": "CiliumClusterwideNetworkPolicy",
+            "path": "/apis/cilium.io/v2/ciliumclusterwidenetworkpolicies/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2CiliumClusterwideNetworkPolicy",
+            "conf_tested": false,
+            "description": "replace the specified CiliumClusterwideNetworkPolicy"
+        },
+        {
+            "kind": "CiliumClusterwideNetworkPolicy",
+            "path": "/apis/cilium.io/v2/ciliumclusterwidenetworkpolicies/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2CiliumClusterwideNetworkPolicyStatus",
+            "conf_tested": false,
+            "description": "replace status of the specified CiliumClusterwideNetworkPolicy"
+        },
+        {
+            "kind": "CiliumExternalWorkload",
+            "path": "/apis/cilium.io/v2/ciliumexternalworkloads/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2CiliumExternalWorkload",
+            "conf_tested": false,
+            "description": "replace the specified CiliumExternalWorkload"
+        },
+        {
+            "kind": "CiliumExternalWorkload",
+            "path": "/apis/cilium.io/v2/ciliumexternalworkloads/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2CiliumExternalWorkloadStatus",
+            "conf_tested": false,
+            "description": "replace status of the specified CiliumExternalWorkload"
+        },
+        {
+            "kind": "CiliumIdentity",
+            "path": "/apis/cilium.io/v2/ciliumidentities/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2CiliumIdentity",
+            "conf_tested": false,
+            "description": "replace the specified CiliumIdentity"
+        },
+        {
+            "kind": "CiliumIdentity",
+            "path": "/apis/cilium.io/v2/ciliumidentities/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2CiliumIdentityStatus",
+            "conf_tested": false,
+            "description": "replace status of the specified CiliumIdentity"
+        },
+        {
+            "kind": "CiliumNode",
+            "path": "/apis/cilium.io/v2/ciliumnodes/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2CiliumNode",
+            "conf_tested": false,
+            "description": "replace the specified CiliumNode"
+        },
+        {
+            "kind": "CiliumNode",
+            "path": "/apis/cilium.io/v2/ciliumnodes/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2CiliumNodeStatus",
+            "conf_tested": false,
+            "description": "replace status of the specified CiliumNode"
+        },
+        {
+            "kind": "CiliumEndpoint",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumendpoints/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2NamespacedCiliumEndpoint",
+            "conf_tested": false,
+            "description": "replace the specified CiliumEndpoint"
+        },
+        {
+            "kind": "CiliumNetworkPolicy",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumnetworkpolicies/{name}",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2NamespacedCiliumNetworkPolicy",
+            "conf_tested": false,
+            "description": "replace the specified CiliumNetworkPolicy"
+        },
+        {
+            "kind": "CiliumNetworkPolicy",
+            "path": "/apis/cilium.io/v2/namespaces/{namespace}/ciliumnetworkpolicies/{name}/status",
+            "group": "cilium.io",
+            "level": "stable",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2NamespacedCiliumNetworkPolicyStatus",
+            "conf_tested": false,
+            "description": "replace status of the specified CiliumNetworkPolicy"
+        },
+        {
+            "kind": "CiliumCIDRGroup",
+            "path": "/apis/cilium.io/v2alpha1/ciliumcidrgroups",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "post",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "createCiliumIoV2alpha1CiliumCIDRGroup",
+            "conf_tested": false,
+            "description": "create a CiliumCIDRGroup"
+        },
+        {
+            "kind": "CiliumL2AnnouncementPolicy",
+            "path": "/apis/cilium.io/v2alpha1/ciliuml2announcementpolicies",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "post",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "createCiliumIoV2alpha1CiliumL2AnnouncementPolicy",
+            "conf_tested": false,
+            "description": "create a CiliumL2AnnouncementPolicy"
+        },
+        {
+            "kind": "CiliumLoadBalancerIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumloadbalancerippools",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "post",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "createCiliumIoV2alpha1CiliumLoadBalancerIPPool",
+            "conf_tested": false,
+            "description": "create a CiliumLoadBalancerIPPool"
+        },
+        {
+            "kind": "CiliumPodIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumpodippools",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "post",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "createCiliumIoV2alpha1CiliumPodIPPool",
+            "conf_tested": false,
+            "description": "create a CiliumPodIPPool"
+        },
+        {
+            "kind": "CiliumNodeConfig",
+            "path": "/apis/cilium.io/v2alpha1/namespaces/{namespace}/ciliumnodeconfigs",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "post",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "createCiliumIoV2alpha1NamespacedCiliumNodeConfig",
+            "conf_tested": false,
+            "description": "create a CiliumNodeConfig"
+        },
+        {
+            "kind": "CiliumCIDRGroup",
+            "path": "/apis/cilium.io/v2alpha1/ciliumcidrgroups/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "delete",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2alpha1CiliumCIDRGroup",
+            "conf_tested": false,
+            "description": "delete a CiliumCIDRGroup"
+        },
+        {
+            "kind": "CiliumL2AnnouncementPolicy",
+            "path": "/apis/cilium.io/v2alpha1/ciliuml2announcementpolicies/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "delete",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2alpha1CiliumL2AnnouncementPolicy",
+            "conf_tested": false,
+            "description": "delete a CiliumL2AnnouncementPolicy"
+        },
+        {
+            "kind": "CiliumLoadBalancerIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumloadbalancerippools/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "delete",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2alpha1CiliumLoadBalancerIPPool",
+            "conf_tested": false,
+            "description": "delete a CiliumLoadBalancerIPPool"
+        },
+        {
+            "kind": "CiliumPodIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumpodippools/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "delete",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2alpha1CiliumPodIPPool",
+            "conf_tested": false,
+            "description": "delete a CiliumPodIPPool"
+        },
+        {
+            "kind": "CiliumCIDRGroup",
+            "path": "/apis/cilium.io/v2alpha1/ciliumcidrgroups",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "deletecollection",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2alpha1CollectionCiliumCIDRGroup",
+            "conf_tested": false,
+            "description": "delete collection of CiliumCIDRGroup"
+        },
+        {
+            "kind": "CiliumL2AnnouncementPolicy",
+            "path": "/apis/cilium.io/v2alpha1/ciliuml2announcementpolicies",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "deletecollection",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2alpha1CollectionCiliumL2AnnouncementPolicy",
+            "conf_tested": false,
+            "description": "delete collection of CiliumL2AnnouncementPolicy"
+        },
+        {
+            "kind": "CiliumLoadBalancerIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumloadbalancerippools",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "deletecollection",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2alpha1CollectionCiliumLoadBalancerIPPool",
+            "conf_tested": false,
+            "description": "delete collection of CiliumLoadBalancerIPPool"
+        },
+        {
+            "kind": "CiliumPodIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumpodippools",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "deletecollection",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2alpha1CollectionCiliumPodIPPool",
+            "conf_tested": false,
+            "description": "delete collection of CiliumPodIPPool"
+        },
+        {
+            "kind": "CiliumNodeConfig",
+            "path": "/apis/cilium.io/v2alpha1/namespaces/{namespace}/ciliumnodeconfigs",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "deletecollection",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2alpha1CollectionNamespacedCiliumNodeConfig",
+            "conf_tested": false,
+            "description": "delete collection of CiliumNodeConfig"
+        },
+        {
+            "kind": "CiliumNodeConfig",
+            "path": "/apis/cilium.io/v2alpha1/namespaces/{namespace}/ciliumnodeconfigs/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "delete",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "deleteCiliumIoV2alpha1NamespacedCiliumNodeConfig",
+            "conf_tested": false,
+            "description": "delete a CiliumNodeConfig"
+        },
+        {
+            "kind": "CiliumCIDRGroup",
+            "path": "/apis/cilium.io/v2alpha1/ciliumcidrgroups",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2alpha1CiliumCIDRGroup",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumCIDRGroup"
+        },
+        {
+            "kind": "CiliumL2AnnouncementPolicy",
+            "path": "/apis/cilium.io/v2alpha1/ciliuml2announcementpolicies",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2alpha1CiliumL2AnnouncementPolicy",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumL2AnnouncementPolicy"
+        },
+        {
+            "kind": "CiliumLoadBalancerIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumloadbalancerippools",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2alpha1CiliumLoadBalancerIPPool",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumLoadBalancerIPPool"
+        },
+        {
+            "kind": "CiliumNodeConfig",
+            "path": "/apis/cilium.io/v2alpha1/ciliumnodeconfigs",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2alpha1CiliumNodeConfigForAllNamespaces",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumNodeConfig"
+        },
+        {
+            "kind": "CiliumPodIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumpodippools",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2alpha1CiliumPodIPPool",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumPodIPPool"
+        },
+        {
+            "kind": "CiliumNodeConfig",
+            "path": "/apis/cilium.io/v2alpha1/namespaces/{namespace}/ciliumnodeconfigs",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "list",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "listCiliumIoV2alpha1NamespacedCiliumNodeConfig",
+            "conf_tested": false,
+            "description": "list objects of kind CiliumNodeConfig"
+        },
+        {
+            "kind": "CiliumCIDRGroup",
+            "path": "/apis/cilium.io/v2alpha1/ciliumcidrgroups/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2alpha1CiliumCIDRGroup",
+            "conf_tested": false,
+            "description": "partially update the specified CiliumCIDRGroup"
+        },
+        {
+            "kind": "CiliumL2AnnouncementPolicy",
+            "path": "/apis/cilium.io/v2alpha1/ciliuml2announcementpolicies/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2alpha1CiliumL2AnnouncementPolicy",
+            "conf_tested": false,
+            "description": "partially update the specified CiliumL2AnnouncementPolicy"
+        },
+        {
+            "kind": "CiliumL2AnnouncementPolicy",
+            "path": "/apis/cilium.io/v2alpha1/ciliuml2announcementpolicies/{name}/status",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2alpha1CiliumL2AnnouncementPolicyStatus",
+            "conf_tested": false,
+            "description": "partially update status of the specified CiliumL2AnnouncementPolicy"
+        },
+        {
+            "kind": "CiliumLoadBalancerIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumloadbalancerippools/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2alpha1CiliumLoadBalancerIPPool",
+            "conf_tested": false,
+            "description": "partially update the specified CiliumLoadBalancerIPPool"
+        },
+        {
+            "kind": "CiliumLoadBalancerIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumloadbalancerippools/{name}/status",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2alpha1CiliumLoadBalancerIPPoolStatus",
+            "conf_tested": false,
+            "description": "partially update status of the specified CiliumLoadBalancerIPPool"
+        },
+        {
+            "kind": "CiliumPodIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumpodippools/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2alpha1CiliumPodIPPool",
+            "conf_tested": false,
+            "description": "partially update the specified CiliumPodIPPool"
+        },
+        {
+            "kind": "CiliumNodeConfig",
+            "path": "/apis/cilium.io/v2alpha1/namespaces/{namespace}/ciliumnodeconfigs/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "patch",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "patchCiliumIoV2alpha1NamespacedCiliumNodeConfig",
+            "conf_tested": false,
+            "description": "partially update the specified CiliumNodeConfig"
+        },
+        {
+            "kind": "CiliumCIDRGroup",
+            "path": "/apis/cilium.io/v2alpha1/ciliumcidrgroups/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2alpha1CiliumCIDRGroup",
+            "conf_tested": false,
+            "description": "read the specified CiliumCIDRGroup"
+        },
+        {
+            "kind": "CiliumL2AnnouncementPolicy",
+            "path": "/apis/cilium.io/v2alpha1/ciliuml2announcementpolicies/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2alpha1CiliumL2AnnouncementPolicy",
+            "conf_tested": false,
+            "description": "read the specified CiliumL2AnnouncementPolicy"
+        },
+        {
+            "kind": "CiliumL2AnnouncementPolicy",
+            "path": "/apis/cilium.io/v2alpha1/ciliuml2announcementpolicies/{name}/status",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2alpha1CiliumL2AnnouncementPolicyStatus",
+            "conf_tested": false,
+            "description": "read status of the specified CiliumL2AnnouncementPolicy"
+        },
+        {
+            "kind": "CiliumLoadBalancerIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumloadbalancerippools/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2alpha1CiliumLoadBalancerIPPool",
+            "conf_tested": false,
+            "description": "read the specified CiliumLoadBalancerIPPool"
+        },
+        {
+            "kind": "CiliumLoadBalancerIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumloadbalancerippools/{name}/status",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2alpha1CiliumLoadBalancerIPPoolStatus",
+            "conf_tested": false,
+            "description": "read status of the specified CiliumLoadBalancerIPPool"
+        },
+        {
+            "kind": "CiliumPodIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumpodippools/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2alpha1CiliumPodIPPool",
+            "conf_tested": false,
+            "description": "read the specified CiliumPodIPPool"
+        },
+        {
+            "kind": "CiliumNodeConfig",
+            "path": "/apis/cilium.io/v2alpha1/namespaces/{namespace}/ciliumnodeconfigs/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "get",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "readCiliumIoV2alpha1NamespacedCiliumNodeConfig",
+            "conf_tested": false,
+            "description": "read the specified CiliumNodeConfig"
+        },
+        {
+            "kind": "CiliumCIDRGroup",
+            "path": "/apis/cilium.io/v2alpha1/ciliumcidrgroups/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2alpha1CiliumCIDRGroup",
+            "conf_tested": false,
+            "description": "replace the specified CiliumCIDRGroup"
+        },
+        {
+            "kind": "CiliumL2AnnouncementPolicy",
+            "path": "/apis/cilium.io/v2alpha1/ciliuml2announcementpolicies/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2alpha1CiliumL2AnnouncementPolicy",
+            "conf_tested": false,
+            "description": "replace the specified CiliumL2AnnouncementPolicy"
+        },
+        {
+            "kind": "CiliumL2AnnouncementPolicy",
+            "path": "/apis/cilium.io/v2alpha1/ciliuml2announcementpolicies/{name}/status",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2alpha1CiliumL2AnnouncementPolicyStatus",
+            "conf_tested": false,
+            "description": "replace status of the specified CiliumL2AnnouncementPolicy"
+        },
+        {
+            "kind": "CiliumLoadBalancerIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumloadbalancerippools/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2alpha1CiliumLoadBalancerIPPool",
+            "conf_tested": false,
+            "description": "replace the specified CiliumLoadBalancerIPPool"
+        },
+        {
+            "kind": "CiliumLoadBalancerIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumloadbalancerippools/{name}/status",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2alpha1CiliumLoadBalancerIPPoolStatus",
+            "conf_tested": false,
+            "description": "replace status of the specified CiliumLoadBalancerIPPool"
+        },
+        {
+            "kind": "CiliumPodIPPool",
+            "path": "/apis/cilium.io/v2alpha1/ciliumpodippools/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2alpha1CiliumPodIPPool",
+            "conf_tested": false,
+            "description": "replace the specified CiliumPodIPPool"
+        },
+        {
+            "kind": "CiliumNodeConfig",
+            "path": "/apis/cilium.io/v2alpha1/namespaces/{namespace}/ciliumnodeconfigs/{name}",
+            "group": "cilium.io",
+            "level": "alpha",
+            "tests": [
+                null
+            ],
+            "action": "put",
+            "tested": false,
+            "release": "1.14.6",
+            "version": "v2alpha1",
+            "category": "ciliumIo",
+            "endpoint": "replaceCiliumIoV2alpha1NamespacedCiliumNodeConfig",
+            "conf_tested": false,
+            "description": "replace the specified CiliumNodeConfig"
+        }
+    ],
+    "release_date": "2024-01-24T00:11:43",
+    "total endpoints": 695,
+    "tested endpoints": 0
+}
